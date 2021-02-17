@@ -10,5 +10,10 @@ package com.horizon;
  * @author saba
  */
 public class Addition {
+    private int x;
+    private int y;
+    public static int add(int x,int y){
+        return x + y;
+    }
     
 }
